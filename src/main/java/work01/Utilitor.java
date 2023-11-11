@@ -1,4 +1,5 @@
 package work01;
+
 public class Utilitor {
 
     public static String testString(String value) {

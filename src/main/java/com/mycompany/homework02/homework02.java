@@ -38,25 +38,25 @@ public class homework02 {
     }
 
     static void work02Person() {
-        Person person1 = new Person("John", "Doe");
-        Person person2 = new Person("Joe", "Dane");
+        Person person1 = new Person("John", "Gotnojob");
+        Person person2 = new Person("Joe", "Gotajob");
 
-        System.out.println("Before modification:");
+        System.out.println("Before modification :");
         System.out.println(person1);
 
         person1.setFirstname("Johhpy");
-        person1.setLastname("Deppy");
+        person1.setLastname("Isunhappy");
 
-        System.out.println("After modification:");
+        System.out.println("After mod :");
         System.out.println(person1);
 
-        System.out.println("person1 = person2? " + person1.equals(person2));
+        System.out.println("Is person1 = person2 : " + person1.equals(person2));
     }
 
     static void work03Account() {
         Person person1 = new Person("Phiravit", "GogetAjob");
-        Person person2 = new Person("spong","wet");
-        Person person3 = new Person("funky","japanesegoblin");
+        Person person2 = new Person("Spong","Wet");
+        Person person3 = new Person("Funky","Japanesegoblin");
         Account account1 = new Account(person1);
         Account account2 = new Account(person2);
         Account account3 = new Account(person3);
@@ -69,7 +69,7 @@ public class homework02 {
         System.out.println(account1.getBalance());
         System.out.println(account1.getOwner());
 
-        account1.deposit(246789);
+        account1.deposit(2564);
         System.out.println(account1);
 
         account1.transfer(1231,account3);

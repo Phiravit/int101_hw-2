@@ -54,7 +54,7 @@ public class Account {
     }
     @Override
     public String toString(){
-        return "Account {No = " + this.no + ", balamce = "+ this.balance +" }";
+        return "Account {No = " + this.no + ", balance = "+ this.balance +" }";
     }
     @Override
     public boolean equals(Object obj){

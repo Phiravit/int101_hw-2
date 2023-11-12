@@ -69,7 +69,7 @@ public class homework02 {
         System.out.println(account1.getBalance());
         System.out.println(account1.getOwner());
 
-        account1.deposit(2564);
+        account1.deposit(246789);
         System.out.println(account1);
 
         account1.transfer(1231,account3);

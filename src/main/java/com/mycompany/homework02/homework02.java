@@ -39,13 +39,13 @@ public class homework02 {
 
     static void work02Person() {
         Person person1 = new Person("John", "Doe");
-        Person person2 = new Person("Jane", "Doe");
+        Person person2 = new Person("Joe", "Dane");
 
         System.out.println("Before modification:");
         System.out.println(person1);
 
-        person1.setFirstname("Johnny");
-        person1.setLastname("Depp");
+        person1.setFirstname("Johhpy");
+        person1.setLastname("Deppy");
 
         System.out.println("After modification:");
         System.out.println(person1);
@@ -67,12 +67,10 @@ public class homework02 {
 
         account1.withdraw(200.0);
         System.out.println("Account 1 withdrawal: " + account1);
-        
-//        Error I cant fix this please let me go T_T
-//        account1.transfer(100.0, account2);
-//        System.out.println("Account 1 transfer: " + account1);
-//        System.out.println("Account 2 transfer: " + account2);
-//
-//        System.out.println("Are account1 and account2 equal? " + account1.equals(account2));
+//Error I cant fix this please let me go T_T
+        account1.transfer(200.0, account2);
+        System.out.println("Account 1 transfer: " + account1);
+        System.out.println("Account 2 transfer: " + account2);
+        System.out.println("Are account1 and account2 equal? " + account1.equals(account2));
     }
 }
